@@ -1,0 +1,167 @@
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body
+{
+	background: #D5D8DC;
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+	min-height:100vh ;
+}
+.content{
+
+	position:relative ;
+	width: 100%;
+	max-width:1000px ;
+	min-height:1000px ;
+	background: #fff;
+	margin: ;
+display: grid;
+grid-template-columns: 1fr 2fr;
+border-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.content .section_left
+{
+	position: relative;
+	background: #003147;
+	padding: 40px;
+
+}
+.content .section-right
+{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+	padding-top: 100px;	
+}
+.content .section-right h3
+{
+	color: darkblue;
+}
+.profiletext
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	top: 50px;
+	margin-left: 10px;
+	margin-right:10px ;
+}
+.profiletext .photo
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.profiletext .photo img
+{
+	position: absolute;
+	top: 50;
+	left: 0;
+	width:100% ;
+	height: 100%;
+	object-fit: cover;
+}
+.profiletext h3
+{
+	color: darkblue;
+	font-size:1.5em ;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600px;
+	line-height: 1.4em;
+}
+.profiletext h3 span
+{
+font-size: blue;	
+font-weight:300 ;
+}
+.contact_info
+{
+	position: relative;
+	padding-top: 100px;
+	padding-left:20px ;
+	padding-right: 20px;
+}
+.cont_section-right h3
+{
+color: darkblue;
+}
+
+.contact_info h3
+{
+color: darkblue;
+}
+.lang_info
+{
+	padding-top: 10px;
+padding-left:20px ;
+padding-right: 20px;	
+}
+.lang_info h3
+{
+color: darkblue;
+}
+hr.light
+{
+	border-top: 1 px solid; #000080;
+	width: 90%;
+	margin-top: 5px;
+	margin-bottom: px ;
+
+
+}
+.content .decorleft
+{
+position: absolute;
+background-color: darkblue;
+width: 500px;
+height: 50px;
+top: 0;
+left: 0;
+
+}
+.content .decorright
+{
+position: absolute;
+background-color: darkblue;
+width: 600px;
+height: 50px;
+bottom: 0;
+right: 0;
+
+}
+
+
+.section-right .about
+{
+padding-left:20px ;
+padding-right: 20px;
+}
+.section-right .skills
+{
+	padding-left:20px ;
+padding-right: 20px;
+}
+.section-right .education
+{
+	padding-left:20px ;
+padding-right: 20px;
+}
+.section-right .Experience
+{
+		padding-left:20px ;
+padding-right: 20px;
+}
